@@ -1,0 +1,78 @@
+import cv2
+import torch
+import torchvision.transforms as transforms
+import numpy as np
+
+class TransformerModel(torch.nn.Module):
+    def __init__(self, feature_dim, num_classes, num_layers, num_heads, dropout):
+        super(TransformerModel, self).__init__()
+        self.feature_extractor = torchvision.models.resnet18(pretrained=True)
+        self.feature_extractor.fc = torch.nn.Identity()
+        self.transformer = torch.nn.Transformer(
+            d_model=feature_dim,
+            nhead=num_heads,
+            num_encoder_layers=num_layers,
+            num_decoder_layers=num_layers,
+            dropout=dropout
+        )
+        self.fc = torch.nn.Linear(feature_dim, num_classes)
+
+    def forward(self, x):
+        batch_size, seq_len, c, h, w = x.size()
+        x = x.view(batch_size * seq_len, c, h, w)
+        features = self.feature_extractor(x)
+        features = features.view(batch_size, seq_len, -1).permute(1, 0, 2)
+        transformer_output = self.transformer(features, features)
+        output = self.fc(transformer_output.mean(dim=0))
+        return output
+
+model = TransformerModel(feature_dim=512, num_classes=12, num_layers=4, num_heads=8, dropout=0.1)
+model.load_state_dict(torch.load('model_state_dict.pth'))
+model.eval()
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+
+labels = ['Sitting', 'Standing', 'Falling', 'Lying Down', 'Walking']
+
+def preprocess_frame(frame):
+    frame = cv2.resize(frame, (224, 224))
+    frame = frame / 255.0
+    frame = torch.tensor(frame, dtype=torch.float32).permute(2, 0, 1)
+    return frame
+
+rtsp_url = "rtsp://username:password@your_camera_ip_address/stream_path"
+
+cap = cv2.VideoCapture(rtsp_url)
+
+sequence = []
+
+while True:
+    ret, frame = cap.read()
+    if not ret:
+        break
+
+    preprocessed_frame = preprocess_frame(frame)
+    sequence.append(preprocessed_frame)
+
+
+    if len(sequence) > 16:
+        sequence.pop(0)
+
+    if len(sequence) == 16:
+        with torch.no_grad():
+            input_tensor = torch.stack(sequence).unsqueeze(0).to(device)
+            output = model(input_tensor)
+            _, predicted_class = torch.max(output, 1)
+            prediction = predicted_class.item()
+
+            label = labels[prediction]
+
+            cv2.putText(frame, label, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
+
+    cv2.imshow('Real-Time Action Classification', frame)
+
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+cap.release()
+cv2.destroyAllWindows()
