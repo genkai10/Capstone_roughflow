@@ -1,48 +1,67 @@
-import UIKit
+import SwiftUI
 import SocketIO
 
-class ViewController: UIViewController {
+struct VideoView: View {
+    @State private var predictionText: String = "Waiting for prediction..."
+    private var socketManager: SocketManager
+    private var socket: SocketIOClient
     
-    // Initialize the manager with your server URL
-    let manager = SocketManager(socketURL: URL(string: "http://192.168.1.19:5000")!, config: [.log(true), .compress])
-    var socket: SocketIOClient!
-    
-    // Label to display predictions
-    @IBOutlet weak var predictionLabel: UILabel!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Set up the socket client
-        socket = manager.defaultSocket
-        
-        // Define event handlers
-        addSocketHandlers()
+    init() {
+        // Set up the socket manager and socket client
+        socketManager = SocketManager(socketURL: URL(string: "http://localhost:5000")!, config: [.log(true), .compress])
+        socket = socketManager.defaultSocket
         
         // Connect to the server
         socket.connect()
+        
+        // Add event handlers
+        addSocketHandlers()
     }
     
-    func addSocketHandlers() {
-        // Handler for when the connection is successful
-        socket.on(clientEvent: .connect) {data, ack in
-            print("Connected to server")
-            self.socket.emit("start_prediction")
+    var body: some View {
+        VStack {
+            Text(predictionText)
+                .font(.title)
+                .padding()
+            
+            Spacer()
+            
+            Text("Video Feed Placeholder")
+                .frame(width: 300, height: 400)
+                .background(Color.gray.opacity(0.3))
+                .cornerRadius(10)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color.black, lineWidth: 2)
+                )
+            
+            Spacer()
         }
-        
-        // Handler for receiving predictions
-        socket.on("new_prediction") { (data, ack) in
+        .onAppear {
+            // Ensure the socket is connected when the view appears
+            socket.connect()
+        }
+        .onDisappear {
+            // Disconnect the socket when the view disappears
+            socket.disconnect()
+        }
+    }
+    
+    private func addSocketHandlers() {
+        // Set up the event handler for receiving new predictions
+        socket.on("new_prediction") { data, ack in
             if let predictionData = data[0] as? [String: Any],
                let action = predictionData["action"] as? String {
                 DispatchQueue.main.async {
-                    self.predictionLabel.text = "Prediction: \(action)"
+                    self.predictionText = "Prediction: \(action)"
                 }
             }
         }
-        
-        // Handler for disconnection
-        socket.on(clientEvent: .disconnect) {data, ack in
-            print("Disconnected from server")
-        }
+    }
+}
+
+struct VideoView_Previews: PreviewProvider {
+    static var previews: some View {
+        VideoView()
     }
 }
