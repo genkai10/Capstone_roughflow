@@ -1,0 +1,1226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DB265AF6973F202953A36FC /* Pods_AnandaAITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A0AF31CC79A2D89CA827A0 /* Pods_AnandaAITests.framework */; };
+		942077DF2CD1F75600B7A17B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 942077DE2CD1F75600B7A17B /* FirebaseAuth */; };
+		942077E12CD1F75600B7A17B /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 942077E02CD1F75600B7A17B /* FirebaseAuthCombine-Community */; };
+		942077E32CD1F75600B7A17B /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 942077E22CD1F75600B7A17B /* FirebaseCore */; };
+		942077E52CD1F75600B7A17B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 942077E42CD1F75600B7A17B /* FirebaseDatabase */; };
+		942077E72CD1F75600B7A17B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 942077E62CD1F75600B7A17B /* FirebaseFirestore */; };
+		9420780B2CD2005900B7A17B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9420780A2CD2005900B7A17B /* FirebaseAuth */; };
+		9420780D2CD2005900B7A17B /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 9420780C2CD2005900B7A17B /* FirebaseAuthCombine-Community */; };
+		9420780F2CD2005900B7A17B /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 9420780E2CD2005900B7A17B /* FirebaseCore */; };
+		942078112CD2005900B7A17B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 942078102CD2005900B7A17B /* FirebaseFirestore */; };
+		942078132CD2005900B7A17B /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 942078122CD2005900B7A17B /* FirebaseFirestoreCombine-Community */; };
+		9461447F2CDA88B300CE7DB0 /* AnandaAI Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9461445C2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		946C918F2CF4B47600F80EE8 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946C918E2CF4B47600F80EE8 /* WatchConnectivity.framework */; };
+		94770E452CD91801002602A5 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 94770E442CD91801002602A5 /* SocketIO */; };
+		94BA645D2CA5524C00242E85 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BA645C2CA5524C00242E85 /* CoreMotion.framework */; };
+		F9A506EF7D6C862A495569AD /* Pods_AnandaAI_AnandaAIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0112CF057F8C6A794839B1 /* Pods_AnandaAI_AnandaAIUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9461446C2CDA88B300CE7DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C688EA2C9D2A3700AB39D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9461445B2CDA88B100CE7DB0;
+			remoteInfo = "AnandaAI Watch App Watch App";
+		};
+		946144762CDA88B300CE7DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C688EA2C9D2A3700AB39D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9461445B2CDA88B100CE7DB0;
+			remoteInfo = "AnandaAI Watch App Watch App";
+		};
+		9461447D2CDA88B300CE7DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C688EA2C9D2A3700AB39D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9461445B2CDA88B100CE7DB0;
+			remoteInfo = "AnandaAI Watch App Watch App";
+		};
+		94C689032C9D2A3900AB39D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C688EA2C9D2A3700AB39D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C688F12C9D2A3700AB39D2;
+			remoteInfo = AnandaAI;
+		};
+		94C6890D2C9D2A3900AB39D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C688EA2C9D2A3700AB39D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C688F12C9D2A3700AB39D2;
+			remoteInfo = AnandaAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		946144802CDA88B300CE7DB0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9461447F2CDA88B300CE7DB0 /* AnandaAI Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B0112CF057F8C6A794839B1 /* Pods_AnandaAI_AnandaAIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnandaAI_AnandaAIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A0AF31CC79A2D89CA827A0 /* Pods_AnandaAITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnandaAITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		645ED4921E06B8CC6ED6F33E /* Pods_AnandaAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnandaAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94283D012CD15D96005FBBA5 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9461445C2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnandaAI Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9461446B2CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AnandaAI Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		946144752CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AnandaAI Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		946C91892CF4B35F00F80EE8 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
+		946C918E2CF4B47600F80EE8 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		94BA645C2CA5524C00242E85 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		94C688F22C9D2A3700AB39D2 /* AnandaAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnandaAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C689022C9D2A3900AB39D2 /* AnandaAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnandaAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C6890C2C9D2A3900AB39D2 /* AnandaAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnandaAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		946C91992CF4C07900F80EE8 /* Exceptions for "AnandaAI" folder in "AnandaAI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 94C688F12C9D2A3700AB39D2 /* AnandaAI */;
+		};
+		9470B10A2CDF4A3A00B7F74C /* Exceptions for "AnandaAI Watch App Watch App" folder in "AnandaAI Watch App Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.swift,
+			);
+			target = 9461445B2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		9470B10B2CDF4A3A00B7F74C /* Exceptions for "AnandaAI Watch App Watch App" folder in "Compile Sources" phase from "AnandaAI Watch App Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 946144582CDA88B100CE7DB0 /* Sources */;
+			membershipExceptions = (
+				.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9461445D2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9470B10A2CDF4A3A00B7F74C /* Exceptions for "AnandaAI Watch App Watch App" folder in "AnandaAI Watch App Watch App" target */,
+				9470B10B2CDF4A3A00B7F74C /* Exceptions for "AnandaAI Watch App Watch App" folder in "Compile Sources" phase from "AnandaAI Watch App Watch App" target */,
+			);
+			path = "AnandaAI Watch App Watch App";
+			sourceTree = "<group>";
+		};
+		9461446E2CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AnandaAI Watch App Watch AppTests";
+			sourceTree = "<group>";
+		};
+		946144782CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AnandaAI Watch App Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		94C688F42C9D2A3700AB39D2 /* AnandaAI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				946C91992CF4C07900F80EE8 /* Exceptions for "AnandaAI" folder in "AnandaAI" target */,
+			);
+			path = AnandaAI;
+			sourceTree = "<group>";
+		};
+		94C689052C9D2A3900AB39D2 /* AnandaAITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AnandaAITests;
+			sourceTree = "<group>";
+		};
+		94C6890F2C9D2A3900AB39D2 /* AnandaAIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AnandaAIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		946144592CDA88B100CE7DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946144682CDA88B300CE7DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946144722CDA88B300CE7DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C688EF2C9D2A3700AB39D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942077E52CD1F75600B7A17B /* FirebaseDatabase in Frameworks */,
+				9420780D2CD2005900B7A17B /* FirebaseAuthCombine-Community in Frameworks */,
+				94BA645D2CA5524C00242E85 /* CoreMotion.framework in Frameworks */,
+				942077E32CD1F75600B7A17B /* FirebaseCore in Frameworks */,
+				942077DF2CD1F75600B7A17B /* FirebaseAuth in Frameworks */,
+				94770E452CD91801002602A5 /* SocketIO in Frameworks */,
+				9420780F2CD2005900B7A17B /* FirebaseCore in Frameworks */,
+				946C918F2CF4B47600F80EE8 /* WatchConnectivity.framework in Frameworks */,
+				942077E12CD1F75600B7A17B /* FirebaseAuthCombine-Community in Frameworks */,
+				942077E72CD1F75600B7A17B /* FirebaseFirestore in Frameworks */,
+				942078132CD2005900B7A17B /* FirebaseFirestoreCombine-Community in Frameworks */,
+				942078112CD2005900B7A17B /* FirebaseFirestore in Frameworks */,
+				9420780B2CD2005900B7A17B /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C688FF2C9D2A3900AB39D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB265AF6973F202953A36FC /* Pods_AnandaAITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C689092C9D2A3900AB39D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A506EF7D6C862A495569AD /* Pods_AnandaAI_AnandaAIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94BA645B2CA5524B00242E85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				946C918E2CF4B47600F80EE8 /* WatchConnectivity.framework */,
+				946C91892CF4B35F00F80EE8 /* WatchKit.framework */,
+				94283D012CD15D96005FBBA5 /* FirebaseAuth.framework */,
+				94BA645C2CA5524C00242E85 /* CoreMotion.framework */,
+				645ED4921E06B8CC6ED6F33E /* Pods_AnandaAI.framework */,
+				2B0112CF057F8C6A794839B1 /* Pods_AnandaAI_AnandaAIUITests.framework */,
+				58A0AF31CC79A2D89CA827A0 /* Pods_AnandaAITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94C688E92C9D2A3700AB39D2 = {
+			isa = PBXGroup;
+			children = (
+				94C688F42C9D2A3700AB39D2 /* AnandaAI */,
+				94C689052C9D2A3900AB39D2 /* AnandaAITests */,
+				94C6890F2C9D2A3900AB39D2 /* AnandaAIUITests */,
+				9461445D2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App */,
+				9461446E2CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppTests */,
+				946144782CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppUITests */,
+				94BA645B2CA5524B00242E85 /* Frameworks */,
+				94C688F32C9D2A3700AB39D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C688F32C9D2A3700AB39D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C688F22C9D2A3700AB39D2 /* AnandaAI.app */,
+				94C689022C9D2A3900AB39D2 /* AnandaAITests.xctest */,
+				94C6890C2C9D2A3900AB39D2 /* AnandaAIUITests.xctest */,
+				9461445C2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App.app */,
+				9461446B2CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppTests.xctest */,
+				946144752CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9461445B2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946144872CDA88B300CE7DB0 /* Build configuration list for PBXNativeTarget "AnandaAI Watch App Watch App" */;
+			buildPhases = (
+				946144582CDA88B100CE7DB0 /* Sources */,
+				946144592CDA88B100CE7DB0 /* Frameworks */,
+				9461445A2CDA88B100CE7DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9461445D2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App */,
+			);
+			name = "AnandaAI Watch App Watch App";
+			packageProductDependencies = (
+			);
+			productName = "AnandaAI Watch App Watch App";
+			productReference = 9461445C2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9461446A2CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946144882CDA88B300CE7DB0 /* Build configuration list for PBXNativeTarget "AnandaAI Watch App Watch AppTests" */;
+			buildPhases = (
+				946144672CDA88B300CE7DB0 /* Sources */,
+				946144682CDA88B300CE7DB0 /* Frameworks */,
+				946144692CDA88B300CE7DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9461446D2CDA88B300CE7DB0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9461446E2CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppTests */,
+			);
+			name = "AnandaAI Watch App Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "AnandaAI Watch App Watch AppTests";
+			productReference = 9461446B2CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		946144742CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946144892CDA88B300CE7DB0 /* Build configuration list for PBXNativeTarget "AnandaAI Watch App Watch AppUITests" */;
+			buildPhases = (
+				946144712CDA88B300CE7DB0 /* Sources */,
+				946144722CDA88B300CE7DB0 /* Frameworks */,
+				946144732CDA88B300CE7DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946144772CDA88B300CE7DB0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				946144782CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppUITests */,
+			);
+			name = "AnandaAI Watch App Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "AnandaAI Watch App Watch AppUITests";
+			productReference = 946144752CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		94C688F12C9D2A3700AB39D2 /* AnandaAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C689162C9D2A3900AB39D2 /* Build configuration list for PBXNativeTarget "AnandaAI" */;
+			buildPhases = (
+				94C688EE2C9D2A3700AB39D2 /* Sources */,
+				94C688EF2C9D2A3700AB39D2 /* Frameworks */,
+				94C688F02C9D2A3700AB39D2 /* Resources */,
+				942077412CD1E8B000B7A17B /* ShellScript */,
+				946144802CDA88B300CE7DB0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9461447E2CDA88B300CE7DB0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				94C688F42C9D2A3700AB39D2 /* AnandaAI */,
+			);
+			name = AnandaAI;
+			productName = AnandaAI;
+			productReference = 94C688F22C9D2A3700AB39D2 /* AnandaAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94C689012C9D2A3900AB39D2 /* AnandaAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C689192C9D2A3900AB39D2 /* Build configuration list for PBXNativeTarget "AnandaAITests" */;
+			buildPhases = (
+				F8D4593C9CA9D0414DB1625D /* [CP] Check Pods Manifest.lock */,
+				94C688FE2C9D2A3900AB39D2 /* Sources */,
+				94C688FF2C9D2A3900AB39D2 /* Frameworks */,
+				94C689002C9D2A3900AB39D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C689042C9D2A3900AB39D2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				94C689052C9D2A3900AB39D2 /* AnandaAITests */,
+			);
+			name = AnandaAITests;
+			productName = AnandaAITests;
+			productReference = 94C689022C9D2A3900AB39D2 /* AnandaAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94C6890B2C9D2A3900AB39D2 /* AnandaAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C6891C2C9D2A3900AB39D2 /* Build configuration list for PBXNativeTarget "AnandaAIUITests" */;
+			buildPhases = (
+				18E026E8021C0306552023F4 /* [CP] Check Pods Manifest.lock */,
+				94C689082C9D2A3900AB39D2 /* Sources */,
+				94C689092C9D2A3900AB39D2 /* Frameworks */,
+				94C6890A2C9D2A3900AB39D2 /* Resources */,
+				90DEEB3A1B9E13EFA5C2C509 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C6890E2C9D2A3900AB39D2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				94C6890F2C9D2A3900AB39D2 /* AnandaAIUITests */,
+			);
+			name = AnandaAIUITests;
+			productName = AnandaAIUITests;
+			productReference = 94C6890C2C9D2A3900AB39D2 /* AnandaAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C688EA2C9D2A3700AB39D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					9461445B2CDA88B100CE7DB0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					9461446A2CDA88B300CE7DB0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9461445B2CDA88B100CE7DB0;
+					};
+					946144742CDA88B300CE7DB0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 9461445B2CDA88B100CE7DB0;
+					};
+					94C688F12C9D2A3700AB39D2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					94C689012C9D2A3900AB39D2 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 94C688F12C9D2A3700AB39D2;
+					};
+					94C6890B2C9D2A3900AB39D2 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 94C688F12C9D2A3700AB39D2;
+					};
+				};
+			};
+			buildConfigurationList = 94C688ED2C9D2A3700AB39D2 /* Build configuration list for PBXProject "AnandaAI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94C688E92C9D2A3700AB39D2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				94770E222CD91429002602A5 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 94C688F32C9D2A3700AB39D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C688F12C9D2A3700AB39D2 /* AnandaAI */,
+				94C689012C9D2A3900AB39D2 /* AnandaAITests */,
+				94C6890B2C9D2A3900AB39D2 /* AnandaAIUITests */,
+				9461445B2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App */,
+				9461446A2CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppTests */,
+				946144742CDA88B300CE7DB0 /* AnandaAI Watch App Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9461445A2CDA88B100CE7DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946144692CDA88B300CE7DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946144732CDA88B300CE7DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C688F02C9D2A3700AB39D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C689002C9D2A3900AB39D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C6890A2C9D2A3900AB39D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18E026E8021C0306552023F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnandaAI-AnandaAIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90DEEB3A1B9E13EFA5C2C509 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnandaAI-AnandaAIUITests/Pods-AnandaAI-AnandaAIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnandaAI-AnandaAIUITests/Pods-AnandaAI-AnandaAIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnandaAI-AnandaAIUITests/Pods-AnandaAI-AnandaAIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942077412CD1E8B000B7A17B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		F8D4593C9CA9D0414DB1625D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnandaAITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		946144582CDA88B100CE7DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946144672CDA88B300CE7DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946144712CDA88B300CE7DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C688EE2C9D2A3700AB39D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C688FE2C9D2A3900AB39D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C689082C9D2A3900AB39D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9461446D2CDA88B300CE7DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9461445B2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App */;
+			targetProxy = 9461446C2CDA88B300CE7DB0 /* PBXContainerItemProxy */;
+		};
+		946144772CDA88B300CE7DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9461445B2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App */;
+			targetProxy = 946144762CDA88B300CE7DB0 /* PBXContainerItemProxy */;
+		};
+		9461447E2CDA88B300CE7DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9461445B2CDA88B100CE7DB0 /* AnandaAI Watch App Watch App */;
+			targetProxy = 9461447D2CDA88B300CE7DB0 /* PBXContainerItemProxy */;
+		};
+		94C689042C9D2A3900AB39D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C688F12C9D2A3700AB39D2 /* AnandaAI */;
+			targetProxy = 94C689032C9D2A3900AB39D2 /* PBXContainerItemProxy */;
+		};
+		94C6890E2C9D2A3900AB39D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C688F12C9D2A3700AB39D2 /* AnandaAI */;
+			targetProxy = 94C6890D2C9D2A3900AB39D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		946144812CDA88B300CE7DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AnandaAI Watch App Watch App/AnandaAI Watch App Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnandaAI Watch App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A6CYV9LCP2;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AnandaAI-Watch-App-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AnandaAI Watch App";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "\"This app requires access to your heart rate data.\"";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "\"This app uses your heart rate data to monitor health metrics.\"";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = pesu.AnandaAI;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pesu.AnandaAI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		946144822CDA88B300CE7DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AnandaAI Watch App Watch App/AnandaAI Watch App Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnandaAI Watch App Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A6CYV9LCP2;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AnandaAI-Watch-App-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AnandaAI Watch App";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "\"This app requires access to your heart rate data.\"";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "\"This app uses your heart rate data to monitor health metrics.\"";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = pesu.AnandaAI;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pesu.AnandaAI.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		946144832CDA88B300CE7DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6CYV9LCP2;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pesu.AnandaAI-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnandaAI Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnandaAI Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		946144842CDA88B300CE7DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6CYV9LCP2;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pesu.AnandaAI-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnandaAI Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnandaAI Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		946144852CDA88B300CE7DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6CYV9LCP2;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pesu.AnandaAI-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AnandaAI Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		946144862CDA88B300CE7DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6CYV9LCP2;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pesu.AnandaAI-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "AnandaAI Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		94C689142C9D2A3900AB39D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94C689152C9D2A3900AB39D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C689172C9D2A3900AB39D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnandaAI/AnandaAI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnandaAI/Preview Content\"";
+				DEVELOPMENT_TEAM = A6CYV9LCP2;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnandaAI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to display video feed.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your health data to provide insights and track vital signs.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to update your health data to provide real-time monitoring.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pesu.AnandaAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94C689182C9D2A3900AB39D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AnandaAI/AnandaAI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnandaAI/Preview Content\"";
+				DEVELOPMENT_TEAM = A6CYV9LCP2;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnandaAI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to display video feed.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your health data to provide insights and track vital signs.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to update your health data to provide real-time monitoring.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pesu.AnandaAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94C6891A2C9D2A3900AB39D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pesu.AnandaAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnandaAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnandaAI";
+			};
+			name = Debug;
+		};
+		94C6891B2C9D2A3900AB39D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pesu.AnandaAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnandaAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnandaAI";
+			};
+			name = Release;
+		};
+		94C6891D2C9D2A3900AB39D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pesu.AnandaAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnandaAI;
+			};
+			name = Debug;
+		};
+		94C6891E2C9D2A3900AB39D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pesu.AnandaAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnandaAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		946144872CDA88B300CE7DB0 /* Build configuration list for PBXNativeTarget "AnandaAI Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946144812CDA88B300CE7DB0 /* Debug */,
+				946144822CDA88B300CE7DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946144882CDA88B300CE7DB0 /* Build configuration list for PBXNativeTarget "AnandaAI Watch App Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946144832CDA88B300CE7DB0 /* Debug */,
+				946144842CDA88B300CE7DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946144892CDA88B300CE7DB0 /* Build configuration list for PBXNativeTarget "AnandaAI Watch App Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946144852CDA88B300CE7DB0 /* Debug */,
+				946144862CDA88B300CE7DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C688ED2C9D2A3700AB39D2 /* Build configuration list for PBXProject "AnandaAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C689142C9D2A3900AB39D2 /* Debug */,
+				94C689152C9D2A3900AB39D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C689162C9D2A3900AB39D2 /* Build configuration list for PBXNativeTarget "AnandaAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C689172C9D2A3900AB39D2 /* Debug */,
+				94C689182C9D2A3900AB39D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C689192C9D2A3900AB39D2 /* Build configuration list for PBXNativeTarget "AnandaAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C6891A2C9D2A3900AB39D2 /* Debug */,
+				94C6891B2C9D2A3900AB39D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C6891C2C9D2A3900AB39D2 /* Build configuration list for PBXNativeTarget "AnandaAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C6891D2C9D2A3900AB39D2 /* Debug */,
+				94C6891E2C9D2A3900AB39D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+		94770E222CD91429002602A5 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		942077DE2CD1F75600B7A17B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		942077E02CD1F75600B7A17B /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		942077E22CD1F75600B7A17B /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		942077E42CD1F75600B7A17B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		942077E62CD1F75600B7A17B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9420780A2CD2005900B7A17B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9420780C2CD2005900B7A17B /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		9420780E2CD2005900B7A17B /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		942078102CD2005900B7A17B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		942078122CD2005900B7A17B /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 942077DD2CD1F75600B7A17B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		94770E442CD91801002602A5 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94770E222CD91429002602A5 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 94C688EA2C9D2A3700AB39D2 /* Project object */;
+}
